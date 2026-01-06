@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AsklusiveShop - Toko Online</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/form.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img class="image" src="./assets/LUPINGAMKAK.jpg" width="70" height="70" />
+        <h1 class="logo">AsklusiveShop</h1>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </div>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input
+        type="hidden"
+        name="access_key"
+        value="1165e90b-5d9a-4833-a21b-64fc2c6f490f"
+      />
+      <div>
+        <label for="name">nama</label>
+        <input type="text" name="name" required />
+      </div>
+
+      <div>
+        <label for="email">email</label>
+        <input type="email" name="email" required />
+      </div>
+
+      <div>
+        <label for="desc">masukan pesan</label>
+        <textarea name="message" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="footer">
+      <p>&copy; 2025 AsklusiveShop</p>
+    </div>
+  </body>
+</html>
